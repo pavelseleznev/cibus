@@ -10,3 +10,5 @@ Change log:
 04.14.19
 
 First beta version.
+
+![Screen Shot](https://github.com/pavelseleznev/cibus/blob/master/Screen%20Shot.png)
