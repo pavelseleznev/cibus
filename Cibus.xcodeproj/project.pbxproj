@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D466A432225B457F000B7658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A431225B457F000B7658 /* AppDelegate.swift */; };
+		D466A434225B457F000B7658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A433225B457F000B7658 /* ViewController.swift */; };
+		D466A437225B457F000B7658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466A435225B457F000B7658 /* Main.storyboard */; };
+		D466A43A225B457F000B7658 /* Cibus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D466A438225B457F000B7658 /* Cibus.xcdatamodeld */; };
+		D466A43C225B4580000B7658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D466A43B225B4580000B7658 /* Assets.xcassets */; };
+		D466A43F225B4580000B7658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466A43D225B4580000B7658 /* LaunchScreen.storyboard */; };
+		D466A447225BD7A8000B7658 /* TheGrocceryListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466A446225BD7A8000B7658 /* TheGrocceryListTableVC.swift */; };
+		D4EE7E4B225E709A00E28388 /* TheGrocceryListCDTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE7E4A225E709A00E28388 /* TheGrocceryListCDTableVC.swift */; };
+		D4EE7E4D226068DF00E28388 /* CodeProjectInitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE7E4C226068DF00E28388 /* CodeProjectInitVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D466A42E225B457F000B7658 /* Cibus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cibus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D466A431225B457F000B7658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D466A433225B457F000B7658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D466A436225B457F000B7658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D466A439225B457F000B7658 /* Cibus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cibus.xcdatamodel; sourceTree = "<group>"; };
+		D466A43B225B4580000B7658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D466A43E225B4580000B7658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D466A440225B4580000B7658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D466A446225BD7A8000B7658 /* TheGrocceryListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGrocceryListTableVC.swift; sourceTree = "<group>"; };
+		D4EE7E4A225E709A00E28388 /* TheGrocceryListCDTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGrocceryListCDTableVC.swift; sourceTree = "<group>"; };
+		D4EE7E4C226068DF00E28388 /* CodeProjectInitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeProjectInitVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D466A42B225B457F000B7658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D466A425225B457F000B7658 = {
+			isa = PBXGroup;
+			children = (
+				D466A430225B457F000B7658 /* Cibus */,
+				D466A42F225B457F000B7658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D466A42F225B457F000B7658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D466A42E225B457F000B7658 /* Cibus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D466A430225B457F000B7658 /* Cibus */ = {
+			isa = PBXGroup;
+			children = (
+				D466A431225B457F000B7658 /* AppDelegate.swift */,
+				D466A433225B457F000B7658 /* ViewController.swift */,
+				D466A446225BD7A8000B7658 /* TheGrocceryListTableVC.swift */,
+				D4EE7E4A225E709A00E28388 /* TheGrocceryListCDTableVC.swift */,
+				D4EE7E4C226068DF00E28388 /* CodeProjectInitVC.swift */,
+				D466A435225B457F000B7658 /* Main.storyboard */,
+				D466A43B225B4580000B7658 /* Assets.xcassets */,
+				D466A43D225B4580000B7658 /* LaunchScreen.storyboard */,
+				D466A440225B4580000B7658 /* Info.plist */,
+				D466A438225B457F000B7658 /* Cibus.xcdatamodeld */,
+			);
+			path = Cibus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D466A42D225B457F000B7658 /* Cibus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D466A443225B4580000B7658 /* Build configuration list for PBXNativeTarget "Cibus" */;
+			buildPhases = (
+				D466A42A225B457F000B7658 /* Sources */,
+				D466A42B225B457F000B7658 /* Frameworks */,
+				D466A42C225B457F000B7658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cibus;
+			productName = Cibus;
+			productReference = D466A42E225B457F000B7658 /* Cibus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D466A426225B457F000B7658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pavel Seleznev";
+				TargetAttributes = {
+					D466A42D225B457F000B7658 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = D466A429225B457F000B7658 /* Build configuration list for PBXProject "Cibus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D466A425225B457F000B7658;
+			productRefGroup = D466A42F225B457F000B7658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D466A42D225B457F000B7658 /* Cibus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D466A42C225B457F000B7658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A43F225B4580000B7658 /* LaunchScreen.storyboard in Resources */,
+				D466A43C225B4580000B7658 /* Assets.xcassets in Resources */,
+				D466A437225B457F000B7658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D466A42A225B457F000B7658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D466A434225B457F000B7658 /* ViewController.swift in Sources */,
+				D4EE7E4D226068DF00E28388 /* CodeProjectInitVC.swift in Sources */,
+				D466A43A225B457F000B7658 /* Cibus.xcdatamodeld in Sources */,
+				D466A447225BD7A8000B7658 /* TheGrocceryListTableVC.swift in Sources */,
+				D466A432225B457F000B7658 /* AppDelegate.swift in Sources */,
+				D4EE7E4B225E709A00E28388 /* TheGrocceryListCDTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D466A435225B457F000B7658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466A436225B457F000B7658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D466A43D225B4580000B7658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D466A43E225B4580000B7658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D466A441225B4580000B7658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D466A442225B4580000B7658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D466A444225B4580000B7658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN4FK745A3;
+				INFOPLIST_FILE = Cibus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pavel.seleznev.Cibus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D466A445225B4580000B7658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AN4FK745A3;
+				INFOPLIST_FILE = Cibus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pavel.seleznev.Cibus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D466A429225B457F000B7658 /* Build configuration list for PBXProject "Cibus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466A441225B4580000B7658 /* Debug */,
+				D466A442225B4580000B7658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D466A443225B4580000B7658 /* Build configuration list for PBXNativeTarget "Cibus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D466A444225B4580000B7658 /* Debug */,
+				D466A445225B4580000B7658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D466A438225B457F000B7658 /* Cibus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D466A439225B457F000B7658 /* Cibus.xcdatamodel */,
+			);
+			currentVersion = D466A439225B457F000B7658 /* Cibus.xcdatamodel */;
+			path = Cibus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D466A426225B457F000B7658 /* Project object */;
+}
